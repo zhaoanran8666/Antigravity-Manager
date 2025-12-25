@@ -40,6 +40,8 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libwebkit2gtk-4.1-dev build-essential curl wget file libssl-dev libgtk-3-dev libayatana-appindicator3-dev librsvg2-dev patchelf pkg-config libsoup-3.0-dev javascriptcoregtk-4.1 libjavascriptcoregtk-4.1-dev
+          # Tauri 2 可能需要 libnm-dev
+          sudo apt-get install -y libnm-dev
 
       - name: Install dependencies (Linux ARM64)
         if: matrix.platform == 'ubuntu-22.04' && contains(matrix.args, 'aarch64')
@@ -47,7 +49,23 @@ jobs:
           sudo dpkg --add-architecture arm64
           sudo apt-get update
           sudo apt-get install -y gcc-aarch64-linux-gnu
-          sudo apt-get install -y libwebkit2gtk-4.1-dev:arm64 build-essential curl wget file libssl-dev:arm64 libgtk-3-dev:arm64 libayatana-appindicator3-dev:arm64 librsvg2-dev:arm64 patchelf pkg-config libsoup-3.0-dev:arm64 javascriptcoregtk-4.1:arm64 libjavascriptcoregtk-4.1-dev:arm64
+          sudo apt-get install -y \
+            libwebkit2gtk-4.1-dev:arm64 \
+            build-essential \
+            curl \
+            wget \
+            file \
+            libssl-dev:arm64 \
+            libgtk-3-dev:arm64 \
+            libayatana-appindicator3-dev:arm64 \
+            librsvg2-dev:arm64 \
+            patchelf \
+            pkg-config \
+            libsoup-3.0-dev:arm64 \
+            javascriptcoregtk-4.1:arm64 \
+            libjavascriptcoregtk-4.1-dev:arm64 \
+            libdbus-1-dev:arm64 \
+            libnm-dev:arm64
 
       - name: Rust setup
         uses: dtolnay/rust-toolchain@stable
@@ -63,6 +81,10 @@ jobs:
           echo "PKG_CONFIG_ALLOW_CROSS=1" >> $GITHUB_ENV
           echo "CARGO_TARGET_AARCH64_UNKNOWN_LINUX_GNU_LINKER=aarch64-linux-gnu-gcc" >> $GITHUB_ENV
           
+          # 针对 OpenSSL 交叉编译
+          echo "OPENSSL_LIB_DIR=/usr/lib/aarch64-linux-gnu" >> $GITHUB_ENV
+          echo "OPENSSL_INCLUDE_DIR=/usr/include" >> $GITHUB_ENV
+          
       - name: Node.js setup
         uses: actions/setup-node@v4
         with:
@@ -73,12 +95,12 @@ jobs:
         run: npm install
 
       - name: Build the app
-        uses: tauri-apps/tauri-action@v0
+        uses: tauri-apps/tauri-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tagName: ${{ github.ref_name }}
-          releaseName: 'Antigravity Tools ${{ github.ref_name }}'
+          tagName: v3.2.4 # 由于 v3.2.3 已经占用了资源，我们强制推送一个新的版本号
+          releaseName: 'Antigravity Tools v3.2.4'
           releaseBody: 'See the assets to download this version and install.'
           releaseDraft: true
           prerelease: false
