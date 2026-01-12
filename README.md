@@ -191,6 +191,8 @@ print(response.choices[0].message.content)
         - **国际化支持 (Internationalization)**:
             - **双语适配**: 更新通知现已完整支持中英双语，根据应用语言设置自动切换文案。
         - **检查逻辑修正**: 修复了更新检查状态更新的时序问题，确保在发现新版本时能稳定弹出通知。
+        - **菜单栏图标高清化修复 (Menu Bar Icon Resolution Fix)**:
+            - **Retina 适配**: 将菜单栏托盘图标 (`tray-icon.png`) 分辨率从 22x22 提升至 44x44，彻底解决了在高分屏下显示模糊的问题 (Fix Issue #557)。
     *   **v3.3.22 (2026-01-12)**:
         - **配额保护系统升级**:
             - 支持自定义监控模型（`gemini-3-flash`, `gemini-3-pro-high`, `claude-sonnet-4-5`），仅在选中模型额度低于阈值时触发保护

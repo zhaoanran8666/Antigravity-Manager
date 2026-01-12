@@ -177,6 +177,8 @@ print(response.choices[0].message.content)
         - **Internationalization Support**:
             - **Bilingual Support**: The update notification now fully supports both English and Chinese, automatically switching based on app language settings.
         - **Check Logic Fix**: Fixed timing issues with update check status updates, ensuring notifications reliably appear when a new version is detected.
+        - **Menu Bar Icon Resolution Fix**:
+            - **Retina Support**: Upgraded the menu bar tray icon (`tray-icon.png`) resolution from 22x22 to 44x44, completely resolving blurriness on high-DPI displays (Fix Issue #557).
     *   **v3.3.22 (2026-01-12)**:
         - **Quota Protection System Upgrade**:
             - Customizable monitored models (`gemini-3-flash`, `gemini-3-pro-high`, `claude-sonnet-4-5`), triggers protection only when selected models fall below threshold
