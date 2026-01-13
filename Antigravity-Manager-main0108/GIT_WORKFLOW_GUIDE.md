@@ -206,6 +206,53 @@ git stash pop
 
 ---
 
+## 🔨 项目编译构建
+
+本项目使用 Tauri v2 + React 构建，需要先安装依赖再进行编译。
+
+### 前置条件
+
+- Node.js (推荐 v18+)
+- Rust (推荐最新稳定版)
+- 平台特定依赖：
+  - **Windows**: Visual Studio Build Tools
+  - **Mac**: Xcode Command Line Tools
+
+### 安装依赖
+
+```bash
+npm install
+```
+
+### Windows 编译
+
+```bash
+# 构建 Windows 安装包 (.exe)
+npm run tauri build
+```
+
+**输出位置**：
+```
+src-tauri/target/release/bundle/nsis/Antigravity Tools_x.x.x_x64-setup.exe
+```
+
+### Mac 编译
+
+```bash
+# 构建 Mac 安装包 (.dmg / .app)
+npm run tauri build
+```
+
+**输出位置**：
+```
+src-tauri/target/release/bundle/dmg/Antigravity Tools_x.x.x_aarch64.dmg
+src-tauri/target/release/bundle/macos/Antigravity Tools.app
+```
+
+> **注意**：Mac 上只能编译 Mac 版本，Windows 上只能编译 Windows 版本。跨平台编译需要使用 CI/CD（如 GitHub Actions）。
+
+---
+
 ## 📅 更新日期
 
 本文档创建于：2026-01-13
