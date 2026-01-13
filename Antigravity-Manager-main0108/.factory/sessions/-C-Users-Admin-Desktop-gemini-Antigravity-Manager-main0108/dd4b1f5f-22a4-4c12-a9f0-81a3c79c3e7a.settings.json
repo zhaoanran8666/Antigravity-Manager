@@ -1,9 +1,0 @@
-{
-  "assistantActiveTimeMs": 32915,
-  "model": "custom:Claude-Opus-4.5-Thinking-0",
-  "reasoningEffort": "none",
-  "autonomyMode": "normal",
-  "providerLock": "generic-chat-completion-api",
-  "providerLockTimestamp": "2026-01-08T07:05:22.948Z",
-  "apiProviderLock": "fireworks"
-}

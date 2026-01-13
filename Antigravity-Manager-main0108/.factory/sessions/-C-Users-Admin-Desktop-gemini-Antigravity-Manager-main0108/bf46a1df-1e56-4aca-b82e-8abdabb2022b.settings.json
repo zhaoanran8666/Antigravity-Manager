@@ -1,9 +1,0 @@
-{
-  "assistantActiveTimeMs": 61224,
-  "model": "custom:Gemini-3-Flash-6",
-  "reasoningEffort": "none",
-  "autonomyMode": "normal",
-  "providerLock": "generic-chat-completion-api",
-  "providerLockTimestamp": "2026-01-08T07:01:08.662Z",
-  "apiProviderLock": "fireworks"
-}
