@@ -1,0 +1,8 @@
+{
+  "assistantActiveTimeMs": 36215,
+  "model": "claude-sonnet-4-5-20250929",
+  "reasoningEffort": "high",
+  "autonomyMode": "normal",
+  "providerLock": "anthropic",
+  "providerLockTimestamp": "2025-12-25T08:36:07.680Z"
+}

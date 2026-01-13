@@ -1,0 +1,214 @@
+2026-01-09T11:45:40.446277400+08:00  INFO antigravity_tools_lib::modules::logger: 日志系统已完成初始化 (终端控制台 + 文件持久化)
+2026-01-09T11:45:40.840180800+08:00  INFO antigravity_tools_lib: Setup starting...
+2026-01-09T11:45:40.859656900+08:00  INFO antigravity_tools_lib: Tray created
+2026-01-09T11:45:40.860109400+08:00  INFO antigravity_tools_lib::modules::logger: 成功加载索引，包含 1 个账号
+2026-01-09T11:45:40.942218800+08:00  INFO antigravity_tools_lib::modules::logger: 已开始列出账号...
+2026-01-09T11:45:40.942406200+08:00  INFO antigravity_tools_lib::modules::logger: 成功加载索引，包含 1 个账号
+2026-01-09T11:45:40.942562800+08:00  INFO antigravity_tools_lib::modules::logger: Backend Command: get_current_account called
+2026-01-09T11:45:40.942694700+08:00  INFO antigravity_tools_lib::modules::logger: 成功加载索引，包含 1 个账号
+2026-01-09T11:45:45.109123500+08:00  INFO antigravity_tools_lib::proxy::server: 反代服务器启动在 http://127.0.0.1:8045
+2026-01-09T11:45:59.607915800+08:00  INFO antigravity_tools_lib::proxy::middleware::auth: Request: POST /v1/messages
+2026-01-09T11:45:59.609480400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609490900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609493700+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609498700+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609501100+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609503500+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609505900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609508200+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609510500+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609512900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609515200+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609517400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609519600+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609522+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609524400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609526700+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609528900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609531+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:45:59.609544300+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: [lt7xdh] Claude Request | Model: gemini-3-flash | Stream: true | Messages: 44 | Tools: true
+2026-01-09T11:45:59.610003800+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: ✓ Using account: bgtyuikm888@gmail.com (type: agent)
+2026-01-09T11:46:02.222965+08:00  WARN antigravity_tools_lib::proxy::handlers::claude: [lt7xdh] Unexpected thinking signature error (should have been filtered). Retrying with all thinking blocks removed.
+2026-01-09T11:46:02.222983400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [lt7xdh] Non-retryable error 400: {
+  "error": {
+    "code": 400,
+    "message": "Function call is missing a thought_signature in functionCall parts. This is required for tools to work correctly, and missing thought_signature may lead to degraded model performance. Additional data, function call `default_api:LS` , position 4. Please refer to https://ai.google.dev/gemini-api/docs/thought-signatures for more details.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-09T11:46:03.625731600+08:00  INFO antigravity_tools_lib::proxy::middleware::auth: Request: POST /v1/messages
+2026-01-09T11:46:03.626871700+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626879800+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626884200+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626888800+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626893400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626898200+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626902700+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626907400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626911600+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626916+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626920100+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626924300+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626928800+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626932600+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626937200+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626941400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626945700+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626949700+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:03.626956800+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: [kmvh6l] Claude Request | Model: gemini-3-flash | Stream: true | Messages: 44 | Tools: true
+2026-01-09T11:46:03.627209500+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: ✓ Using account: bgtyuikm888@gmail.com (type: agent)
+2026-01-09T11:46:05.176523100+08:00  WARN antigravity_tools_lib::proxy::handlers::claude: [kmvh6l] Unexpected thinking signature error (should have been filtered). Retrying with all thinking blocks removed.
+2026-01-09T11:46:05.176542400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [kmvh6l] Non-retryable error 400: {
+  "error": {
+    "code": 400,
+    "message": "Function call is missing a thought_signature in functionCall parts. This is required for tools to work correctly, and missing thought_signature may lead to degraded model performance. Additional data, function call `default_api:LS` , position 4. Please refer to https://ai.google.dev/gemini-api/docs/thought-signatures for more details.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-09T11:46:09.078041100+08:00  INFO antigravity_tools_lib::proxy::middleware::auth: Request: POST /v1/messages
+2026-01-09T11:46:09.078900900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078907900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078911600+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078915600+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078919300+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078923400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078927200+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078930900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078934900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078939100+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078942400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078945900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078949300+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078952800+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078956300+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078959700+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078963200+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078966900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:46:09.078973200+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: [okuq3b] Claude Request | Model: gemini-3-flash | Stream: true | Messages: 44 | Tools: true
+2026-01-09T11:46:09.079193100+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: ✓ Using account: bgtyuikm888@gmail.com (type: agent)
+2026-01-09T11:46:10.627819900+08:00  WARN antigravity_tools_lib::proxy::handlers::claude: [okuq3b] Unexpected thinking signature error (should have been filtered). Retrying with all thinking blocks removed.
+2026-01-09T11:46:10.627835400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [okuq3b] Non-retryable error 400: {
+  "error": {
+    "code": 400,
+    "message": "Function call is missing a thought_signature in functionCall parts. This is required for tools to work correctly, and missing thought_signature may lead to degraded model performance. Additional data, function call `default_api:LS` , position 4. Please refer to https://ai.google.dev/gemini-api/docs/thought-signatures for more details.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-09T11:47:46.360238600+08:00  INFO antigravity_tools_lib::proxy::middleware::auth: Request: POST /v1/messages
+2026-01-09T11:47:46.360521800+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: [9kpqdh] Claude Request | Model: gemini-3-flash | Stream: true | Messages: 1 | Tools: true
+2026-01-09T11:47:46.360680+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: ✓ Using account: bgtyuikm888@gmail.com (type: agent)
+2026-01-09T11:47:53.682563900+08:00  INFO antigravity_tools_lib::proxy::mappers::claude: [9kpqdh] ✓ Stream completed | Account: bgtyuikm888@gmail.com | In: 11105 tokens | Out: 43 tokens
+2026-01-09T11:48:04.949748400+08:00  INFO antigravity_tools_lib::proxy::middleware::auth: Request: POST /v1/messages
+2026-01-09T11:48:04.950090300+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:48:04.950104100+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: [8yxatg] Claude Request | Model: claude-sonnet-4-5 | Stream: true | Messages: 3 | Tools: true
+2026-01-09T11:48:04.950162800+08:00  INFO antigravity_tools_lib::modules::logger: [Router] 非 CLI 请求，跳过家族映射: claude-sonnet-4-5
+2026-01-09T11:48:04.950247100+08:00  WARN antigravity_tools_lib::modules::logger: [Router] 使用 Anthropic 系列映射: claude-sonnet-4-5 -> claude-opus-4-5-thinking
+2026-01-09T11:48:04.950280900+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: ✓ Using account: bgtyuikm888@gmail.com (type: agent)
+2026-01-09T11:48:04.950467300+08:00  INFO antigravity_tools_lib::proxy::mappers::claude::request: [Thinking-Mode] First thinking request detected. Using permissive mode - signature validation will be handled by upstream API.
+2026-01-09T11:48:08.359445300+08:00  INFO antigravity_tools_lib::proxy::mappers::claude: [8yxatg] ✓ Stream completed | Account: bgtyuikm888@gmail.com | In: 13202 tokens | Out: 37 tokens
+2026-01-09T11:48:16.997347100+08:00  INFO antigravity_tools_lib::proxy::middleware::auth: Request: POST /v1/messages
+2026-01-09T11:48:16.997633400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:48:16.997652500+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:48:16.997667900+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: [ysac3n] Claude Request | Model: claude-sonnet-4-5 | Stream: true | Messages: 5 | Tools: true
+2026-01-09T11:48:16.997752+08:00  INFO antigravity_tools_lib::modules::logger: [Router] 非 CLI 请求，跳过家族映射: claude-sonnet-4-5
+2026-01-09T11:48:16.997851200+08:00  WARN antigravity_tools_lib::modules::logger: [Router] 使用 Anthropic 系列映射: claude-sonnet-4-5 -> claude-opus-4-5-thinking
+2026-01-09T11:48:16.997896800+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: ✓ Using account: bgtyuikm888@gmail.com (type: agent)
+2026-01-09T11:48:16.998074700+08:00  INFO antigravity_tools_lib::proxy::mappers::claude::request: [Thinking-Mode] First thinking request detected. Using permissive mode - signature validation will be handled by upstream API.
+2026-01-09T11:48:19.834856800+08:00  INFO antigravity_tools_lib::proxy::mappers::claude: [ysac3n] ✓ Stream completed | Account: bgtyuikm888@gmail.com | In: 159 tokens | Out: 45 tokens, Cached: 13182
+2026-01-09T11:48:37.349447400+08:00  INFO antigravity_tools_lib::proxy::middleware::auth: Request: POST /v1/messages
+2026-01-09T11:48:37.349754800+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:48:37.349762900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:48:37.349766600+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:48:37.349775500+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: [voegok] Claude Request | Model: claude-sonnet-4-5 | Stream: true | Messages: 7 | Tools: true
+2026-01-09T11:48:37.349827200+08:00  INFO antigravity_tools_lib::modules::logger: [Router] 非 CLI 请求，跳过家族映射: claude-sonnet-4-5
+2026-01-09T11:48:37.349885300+08:00  WARN antigravity_tools_lib::modules::logger: [Router] 使用 Anthropic 系列映射: claude-sonnet-4-5 -> claude-opus-4-5-thinking
+2026-01-09T11:48:37.349907200+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: ✓ Using account: bgtyuikm888@gmail.com (type: agent)
+2026-01-09T11:48:37.350031600+08:00  INFO antigravity_tools_lib::proxy::mappers::claude::request: [Thinking-Mode] First thinking request detected. Using permissive mode - signature validation will be handled by upstream API.
+2026-01-09T11:48:40.792441700+08:00  INFO antigravity_tools_lib::proxy::mappers::claude: [voegok] ✓ Stream completed | Account: bgtyuikm888@gmail.com | In: 167 tokens | Out: 73 tokens, Cached: 13321
+2026-01-09T11:51:20.473726600+08:00  INFO antigravity_tools_lib::proxy::middleware::auth: Request: POST /v1/messages
+2026-01-09T11:51:20.474871300+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:20.474878200+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:20.474881300+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:20.474884200+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:20.474887100+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:20.474889900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:20.474892700+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:20.474895800+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:20.474898800+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:20.474901600+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:20.474904400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:20.474907300+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:20.474910200+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:20.474913+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:20.474915800+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:20.474918500+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:20.474924900+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: [ychvv9] Claude Request | Model: gemini-3-flash | Stream: true | Messages: 36 | Tools: true
+2026-01-09T11:51:20.475130200+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: ✓ Using account: bgtyuikm888@gmail.com (type: agent)
+2026-01-09T11:51:23.504736700+08:00  WARN antigravity_tools_lib::proxy::handlers::claude: [ychvv9] Unexpected thinking signature error (should have been filtered). Retrying with all thinking blocks removed.
+2026-01-09T11:51:23.504756400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [ychvv9] Non-retryable error 400: {
+  "error": {
+    "code": 400,
+    "message": "Function call is missing a thought_signature in functionCall parts. This is required for tools to work correctly, and missing thought_signature may lead to degraded model performance. Additional data, function call `default_api:TodoWrite` , position 2. Please refer to https://ai.google.dev/gemini-api/docs/thought-signatures for more details.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-09T11:51:24.002066700+08:00  INFO antigravity_tools_lib::proxy::middleware::auth: Request: POST /v1/messages
+2026-01-09T11:51:24.002924900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:24.002931100+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:24.002934700+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:24.002938100+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:24.002941700+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:24.002945400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:24.002949400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:24.002953300+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:24.002957200+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:24.002960700+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:24.002964300+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:24.002967800+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:24.002971300+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:24.002974400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:24.002977900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:24.002981200+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:24.002988400+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: [smadza] Claude Request | Model: gemini-3-flash | Stream: true | Messages: 36 | Tools: true
+2026-01-09T11:51:24.003168100+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: ✓ Using account: bgtyuikm888@gmail.com (type: agent)
+2026-01-09T11:51:25.652457600+08:00  WARN antigravity_tools_lib::proxy::handlers::claude: [smadza] Unexpected thinking signature error (should have been filtered). Retrying with all thinking blocks removed.
+2026-01-09T11:51:25.652474500+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [smadza] Non-retryable error 400: {
+  "error": {
+    "code": 400,
+    "message": "Function call is missing a thought_signature in functionCall parts. This is required for tools to work correctly, and missing thought_signature may lead to degraded model performance. Additional data, function call `default_api:TodoWrite` , position 2. Please refer to https://ai.google.dev/gemini-api/docs/thought-signatures for more details.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+
+2026-01-09T11:51:29.630718100+08:00  INFO antigravity_tools_lib::proxy::middleware::auth: Request: POST /v1/messages
+2026-01-09T11:51:29.631631200+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:29.631638200+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:29.631641900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:29.631645600+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:29.631649+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:29.631652500+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:29.631656200+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:29.631659900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:29.631663600+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:29.631667400+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:29.631671100+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:29.631674900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:29.631678100+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:29.631681600+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:29.631684900+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:29.631688200+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [DEBUG-FILTER] Inspecting msg with role: assistant
+2026-01-09T11:51:29.631695500+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: [yeouf4] Claude Request | Model: gemini-3-flash | Stream: true | Messages: 36 | Tools: true
+2026-01-09T11:51:29.631902400+08:00  INFO antigravity_tools_lib::proxy::handlers::claude: ✓ Using account: bgtyuikm888@gmail.com (type: agent)
+2026-01-09T11:51:31.667430900+08:00  WARN antigravity_tools_lib::proxy::handlers::claude: [yeouf4] Unexpected thinking signature error (should have been filtered). Retrying with all thinking blocks removed.
+2026-01-09T11:51:31.667445500+08:00 ERROR antigravity_tools_lib::proxy::handlers::claude: [yeouf4] Non-retryable error 400: {
+  "error": {
+    "code": 400,
+    "message": "Function call is missing a thought_signature in functionCall parts. This is required for tools to work correctly, and missing thought_signature may lead to degraded model performance. Additional data, function call `default_api:TodoWrite` , position 2. Please refer to https://ai.google.dev/gemini-api/docs/thought-signatures for more details.",
+    "status": "INVALID_ARGUMENT"
+  }
+}
+

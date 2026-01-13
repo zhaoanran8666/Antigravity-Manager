@@ -1,0 +1,8 @@
+{
+  "assistantActiveTimeMs": 0,
+  "model": "claude-sonnet-4-5-20250929",
+  "reasoningEffort": "high",
+  "autonomyMode": "normal",
+  "specModeModel": "claude-opus-4-5-20251101",
+  "specModeReasoningEffort": "high"
+}

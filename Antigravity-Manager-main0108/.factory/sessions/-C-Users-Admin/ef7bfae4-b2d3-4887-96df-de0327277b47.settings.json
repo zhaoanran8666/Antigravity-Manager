@@ -1,0 +1,8 @@
+{
+  "assistantActiveTimeMs": 22236,
+  "model": "claude-opus-4-5-20251101",
+  "reasoningEffort": "off",
+  "autonomyMode": "normal",
+  "providerLock": "anthropic",
+  "providerLockTimestamp": "2026-01-04T08:20:34.406Z"
+}

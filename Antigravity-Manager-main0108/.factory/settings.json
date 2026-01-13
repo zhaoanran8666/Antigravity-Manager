@@ -1,0 +1,77 @@
+{
+  "customModels": [
+    {
+      "model": "claude-opus-4-5-thinking",
+      "id": "custom:Claude-Opus-4.5-Thinking-0",
+      "index": 0,
+      "baseUrl": "http://127.0.0.1:8045",
+      "apiKey": "sk-e7b13490302349eaadd5d6a3cb15e059",
+      "displayName": "Claude Opus 4.5 (Thinking)",
+      "maxOutputTokens": 64000,
+      "noImageSupport": false,
+      "provider": "anthropic"
+    },
+    {
+      "model": "claude-sonnet-4-5",
+      "id": "custom:Claude-Sonnet-4.5-1",
+      "index": 1,
+      "baseUrl": "http://127.0.0.1:8045",
+      "apiKey": "sk-e7b13490302349eaadd5d6a3cb15e059",
+      "displayName": "Claude Sonnet 4.5",
+      "maxOutputTokens": 64000,
+      "noImageSupport": false,
+      "provider": "anthropic"
+    },
+    {
+      "model": "claude-sonnet-4-5-thinking",
+      "id": "custom:Claude-Sonnet-4.5-Thinking-2",
+      "index": 2,
+      "baseUrl": "http://127.0.0.1:8045",
+      "apiKey": "sk-e7b13490302349eaadd5d6a3cb15e059",
+      "displayName": "Claude Sonnet 4.5 (Thinking)",
+      "maxOutputTokens": 64000,
+      "noImageSupport": false,
+      "provider": "anthropic"
+    },
+    {
+      "model": "gemini-3-pro-high",
+      "id": "custom:Gemini-3-Pro-High-3",
+      "index": 3,
+      "baseUrl": "http://127.0.0.1:8045",
+      "apiKey": "sk-e7b13490302349eaadd5d6a3cb15e059",
+      "displayName": "Gemini 3 Pro (High)",
+      "maxOutputTokens": 64000,
+      "noImageSupport": false,
+      "provider": "anthropic"
+    },
+    {
+      "model": "gemini-3-pro-low",
+      "id": "custom:Gemini-3-Pro-Low-4",
+      "index": 4,
+      "baseUrl": "http://127.0.0.1:8045",
+      "apiKey": "sk-e7b13490302349eaadd5d6a3cb15e059",
+      "displayName": "Gemini 3 Pro (Low)",
+      "maxOutputTokens": 64000,
+      "noImageSupport": false,
+      "provider": "anthropic"
+    },
+    {
+      "model": "gemini-3-flash",
+      "id": "custom:Gemini-3-Flash-5",
+      "index": 5,
+      "baseUrl": "http://127.0.0.1:8045",
+      "apiKey": "sk-e7b13490302349eaadd5d6a3cb15e059",
+      "displayName": "Gemini 3 Flash",
+      "maxOutputTokens": 64000,
+      "noImageSupport": false,
+      "provider": "anthropic"
+    }
+  ],
+  "sessionDefaultSettings": {
+    "model": "custom:Gemini-3-Flash-5",
+    "reasoningEffort": "none"
+  },
+  "ideExtensionPromptedAt": {
+    "vscode": 1767669181770
+  }
+}

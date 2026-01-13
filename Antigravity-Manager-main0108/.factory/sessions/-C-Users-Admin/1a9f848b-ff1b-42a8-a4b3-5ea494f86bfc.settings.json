@@ -1,0 +1,8 @@
+{
+  "assistantActiveTimeMs": 18830,
+  "model": "custom:Opus-4.5-(Antigravity)-0",
+  "reasoningEffort": "none",
+  "autonomyMode": "normal",
+  "providerLock": "anthropic",
+  "providerLockTimestamp": "2026-01-04T07:58:34.898Z"
+}
